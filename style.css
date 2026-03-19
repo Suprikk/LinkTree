@@ -161,7 +161,7 @@ body::before {
   border-radius: 4px;
   object-fit: cover;
   background: var(--bg-secondary);
-  box-shadow: var(--pixel-shadow) var(--accent-magenta);
+  box-shadow: var(--pixel-shadow) white;
   transition: transform var(--transition-speed), box-shadow var(--transition-speed);
   image-rendering: auto;
 }
@@ -199,14 +199,14 @@ body::before {
   font-size: 16px;
   color: var(--text-primary);
   margin-bottom: 12px;
-  text-shadow: 2px 2px 0px white;
+  text-shadow: 2px 2px 0px black;
   letter-spacing: 1px;
   animation: glitchText 3s infinite;
 }
 
 @keyframes glitchText {
   0%, 94%, 100% {
-    text-shadow: 2px 2px 0px white;
+    text-shadow: 2px 2px 0px black;
   }
   95% {
     text-shadow: -2px 2px 0px var(--accent-cyan), 2px -2px 0px white;
