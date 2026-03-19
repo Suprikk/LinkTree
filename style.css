@@ -168,7 +168,7 @@ body::before {
 
 .profile-image:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px var(--accent-magenta);
+  box-shadow: 6px 6px 0px white;
 }
 
 /* Pixel corners for profile */
@@ -199,20 +199,20 @@ body::before {
   font-size: 16px;
   color: var(--text-primary);
   margin-bottom: 12px;
-  text-shadow: 2px 2px 0px var(--accent-magenta);
+  text-shadow: 2px 2px 0px white;
   letter-spacing: 1px;
   animation: glitchText 3s infinite;
 }
 
 @keyframes glitchText {
   0%, 94%, 100% {
-    text-shadow: 2px 2px 0px var(--accent-magenta);
+    text-shadow: 2px 2px 0px white;
   }
   95% {
-    text-shadow: -2px 2px 0px var(--accent-cyan), 2px -2px 0px var(--accent-magenta);
+    text-shadow: -2px 2px 0px var(--accent-cyan), 2px -2px 0px white;
   }
   96% {
-    text-shadow: 2px 2px 0px var(--accent-magenta);
+    text-shadow: 2px 2px 0px white;
   }
   97% {
     text-shadow: 2px -2px 0px var(--accent-cyan), -2px 2px 0px var(--accent-yellow);
